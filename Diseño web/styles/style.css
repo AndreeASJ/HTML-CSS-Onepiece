@@ -1,0 +1,422 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 0rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    left : 0;
+}
+
+.navbar h1 {
+    margin: 0;
+    color: #4e4e4e; 
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase; 
+    background-color: #ffc5d6; 
+    padding: 0.5rem 1rem; 
+    border-radius: 0.5rem; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+  
+#menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    margin-right: 1rem;
+}
+
+#menu a {
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+    background-color: #444;
+}
+
+.navbar form {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.navbar input[type="search"] {
+    background-color: #444;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    width: 50%;
+    color: #fff;
+    padding-left: 1rem;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+#Mainimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Mainimg img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 60px; 
+}
+
+
+
+#container > div {
+    margin-bottom: 20px;
+    background-color: rgba(242, 242, 242, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+ 
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+p {
+    margin: 0;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+#Luffy > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#Zoro > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#Sanji > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#Nami > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#Usopp > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#Chopper > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#Robin > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#Brook > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#Franky > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+#Jinbe > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#paramecia > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#logia > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#zoan > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#crecimiento > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#Sekai > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+footer label {
+    margin-right: 10px;
+}
+
+
+
+
+#contact-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#ues {
+    position: absolute;
+    right: 0;
+}
+
+
+#contact-form input[type="submit"]:hover {
+    background-color: #444;
+}
+
+#container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#container img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    /* background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%); */
+    background: linear-gradient(315deg, rgb(104, 105, 105) 3%, rgb(50, 54, 54) 38%, rgb(14, 56, 54) 68%, rgb(26, 28, 29) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+
+
+
+
+
+/**#container{
+
+    background-color: rgb(203, 241, 250);
+
+}
+
+/***{
+
+   color: black;
+
+}
+
+
